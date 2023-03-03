@@ -1,0 +1,44 @@
+.todolisttemplate {
+  background-color: white;
+  width: 80%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 15px;
+  border: 1px solid pink;
+}
+
+.title {
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #828282;
+  background: pink;
+  border-radius: 15px 15px 0 0;
+}
+
+.formwrapper {
+  padding: 1rem;
+  /* border-bottom: 1px solid pink; */
+}
+
+.todoswrapper {
+  min-height: 5rem;
+}
+
+.palettewrapper {
+  padding: 1rem;
+  background: #f1f3f5;
+}
+
+@media screen and (max-width: 800px) {
+  .todolisttemplate {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
