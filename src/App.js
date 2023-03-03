@@ -92,6 +92,7 @@ class App extends Component {
             onRemove={handleRemove}
           />
         </TodoListTemplate>
+        <Calendar />
       </div>
     );
   }
