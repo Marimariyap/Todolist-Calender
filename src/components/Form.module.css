@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+}
+
+.formin {
+  width: 80%;
+  flex: 1;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid pink;
+}
+
+.createbutton {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-left: 1rem;
+  background: pink;
+  border-radius: 15px;
+  color: #828282;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.createbutton:hover {
+  background: orange;
+}
